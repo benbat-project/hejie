@@ -1,0 +1,353 @@
+@media screen and (max-width:768px){
+    .nav_wrapper {
+        height:56px;
+    }
+    main .xxycontent>div {
+        width: 100%;
+        overflow:hidden;
+    }
+    main .video .cont {
+        display:none;
+    }
+    main .xxycontent .person>div {
+        width: 320px;
+        font-size:12px;
+        margin:0 auto;
+    }
+    main .xxycontent .person .story .story-text {
+        
+        width: 196px;
+    }
+    .person .story {
+        padding-top:18px;
+    }
+    main .xxycontent .person .story h2{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .person .story .t-img {
+        width: 123px;
+        margin-top:72px;
+    }
+    .person .story .t-img img {
+        display:none;
+        width: 123px;
+    }
+    .person .story .t-img img:nth-child(2){
+        display:block;
+    }
+    .person .story .story-text .t-dic {
+        padding:0;
+    }
+    .person .dismay {
+        padding-top:116px;
+        display:block;
+    }
+    .dismay>div:nth-child(1){
+        display:none;
+    }
+    .dismay .dismay-text>div:nth-child(2){
+        display:block;
+    }
+    .dismay .dismay-text .redtext {
+        font-size: 24px;
+        line-height: 30px;
+        width: 232px;
+        margin:0 auto 33px;
+    }
+    .dismay .dismay-text .redtext>div:nth-child(2){
+        display:block;
+    }
+    .dismay .dismay-text .redtext>div:nth-child(1){
+        display:none;
+    }
+    .dismay .dismay-text .redtext::before {
+        top: -27px;
+        left: -36px;
+        width: 37px;
+        height: 31px;
+        background: url(../img/quote-top-mb.png) no-repeat 0 0;
+        background-size: 100% auto;
+    }
+    .dismay .dismay-text .redtext::after {
+        bottom: 10px;
+        right: -37px;
+        width: 37px;
+        height: 31px;
+        background: url(../img/quote-bot-mb.png) no-repeat 0 0;
+        background-size: 100% auto;
+    }
+    .dismay .dismay-text {
+        width: 100%;
+        padding:0;
+    }
+    .dismay .dismay-text img {
+        width: 100%;
+    }
+    .dismay .dismay-text .main-text {
+        padding:6px 0 0 0;
+        width: 260px;
+        margin:0 auto;
+    }
+    .person .study {
+        display:block;
+        padding:0;
+        padding-top:117px;
+    }
+    .study>div:nth-child(1){
+        display:block;
+        height:260px;
+    }
+    .study>div:nth-child(3){
+        display:none;
+    }
+    .study img {
+        width: 214px;
+        float:right;
+    }
+    .study .study-text {
+        width:260px;
+        margin:0 auto;
+    }
+    .study .study-text h2 {
+        width:160px;
+        font-size: 25px;
+        line-height: 30px;
+        padding-top: 16px;
+        margin:0;
+    }
+    .study .study-main-text {
+        width:260px;
+    }
+    main .xxycontent .person .systematic{
+        margin-top:224px;
+        min-width: 320px;
+    }
+    .systematic .sys-cont {
+        width:720px;
+        height: 720px;
+        margin-left:-61px;
+        float:left;
+        border-width:2px;
+    }
+    .systematic .sys-text {
+        width:172px;
+        margin-left: -69px;
+        margin-top: 61px;
+    }
+    .systematic .cirred {
+        width: 342px;
+        height: 342px;
+        top: -107px;
+        left: 46px;
+    }
+    .systematic .cirred h2 {
+        width: 209px;
+        font-size: 24px;
+        line-height: 30px;
+        top:52px;
+        left:93px;
+        transform:translateX(0);
+    }
+    .systematic .cirred p {
+        width: 209px;
+        padding-left:20px;
+        top:184px;
+        left:95px;
+        transform:translateX(0);
+    }
+    .systematic .sys-img img:nth-child(1){
+        display:none;
+    }
+    .systematic .sys-img img:nth-child(2){
+        display:block;
+        width:109px ;
+    }
+    .systematic .sys-img {
+        top: 178px;
+        left: 87px;
+    }
+    .person .sql {
+        padding:60px 0 0;
+        display:block;
+    }
+    .person .sql img {
+        width: 320px;
+    }
+    .person .sql::before {
+        width: 500px;
+        height: 500px;
+        left:50%;
+        margin-left:-250px;
+        top:330px;
+        border-top:2px solid transparent;
+    }
+    .person .sql>div {
+        display:block;
+    }
+    .person .sql>div:nth-child(1){
+        display:block;
+    }
+    .person .sql>div:nth-child(3){
+        display:none;
+    }
+    .person .sql .sql-text {
+        width: 256px;
+        margin:50px auto 110px; 
+    }
+    .person .sql .sql-text .tit {
+        width: 168px;
+        margin: 46px auto 0;
+    }
+    .person .sql .sql-text .tit p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .person .sql .sql-text .tit::before {
+        background:url('../img/quote-top-blue-mb.png') no-repeat 0 0;
+        background-size: 100% auto;
+        width: 37px;
+        height: 31px;
+        top: -25px;
+        left: -39px;
+    }
+    .person .sql .sql-text .tit::after {
+        background:url('../img/quote-bot-blue-mb.png') no-repeat 0 0;
+        background-size: 100% auto;
+        width: 37px;
+        height: 31px;
+        bottom: -9px;
+        right: -39px;
+    }
+    .person .sql .sql-text .cont-p{
+        margin-top:60px;
+    }
+    main .xxycontent .person .xxylink {
+        padding:36px 0 0;
+        margin-bottom:56px;
+    }
+    main .xxycontent .person .xxylink .live {
+        width: 93px;
+    }
+    main .xxycontent .person .xxylink .live img {
+        width:93px;
+        padding:0px;
+    }
+    .person .xxylink p {
+        font-size:15px;
+    }
+    .person .xxylink p i {
+        display: inline-block;
+        width: 9px;
+        height: 14px;
+        background: url(../img/story-prev-small.png) no-repeat ;
+        background-size:cover;
+
+    }
+    .person .xxylink .live:nth-child(2) i {
+        background: url(../img/story-next-small.png) no-repeat ;
+        background-size:cover;
+    }
+    .person .xxylink a:hover    {
+        color: inherit;
+    }
+    .person .xxylink .live:nth-child(1) a:hover i{
+        background: url(../img/story-prev-small.png) no-repeat ;
+        background-size:cover;
+    }
+    .person .xxylink .live:nth-child(2) a:hover i{
+       background: url(../img/story-next-small.png) no-repeat ;
+       background-size:cover;
+    }
+    .course {
+        padding-top:15px;
+    }
+    .course::after {
+        height:15px;
+    }
+    .course .course-cont h2{
+        width: 320px;
+        padding:20px 0 27px;
+        margin:0 auto;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .course .course-cont .cour-list {
+        display:block;
+        width:320px;
+        margin:0 auto;
+    }
+    .course .course-cont .cour-list li {
+        display:block;
+    }
+    .course .cour-list li {
+        width:184px;
+        height:184px;
+        margin: 10px 22px 20px 9px;
+    }
+    .course .cour-list li:nth-child(odd){
+        margin-left:110px;
+    }
+    .course .cour-list .cour-text {
+        width:140px;
+    }
+    .course .cour-list h3 {
+        font-size:20px;
+        padding-top: 35px;
+    }
+    .course .cour-list p {
+        font-size:12px;
+        line-height:18px;
+        padding-top:7px;
+    }
+    .course .cour-list .cour-btn {
+        width:81px;
+        height:81px;
+        bottom: -25px;
+        right: 4px;
+    }
+    .course .cour-list .cour-btn a {
+        width:81px;
+        height:81px;
+    }
+    .course .cour-list .cour-btn i {
+        width:12px;
+        height:21px;
+        background: url('../img/glyphicon-more-mobile.png') no-repeat;
+        background-size:100%;
+        top:25px;
+        left:50%;
+        margin-left:-6px;
+    }
+    .course .cour-list .cour-btn span {
+        font-size:12px;
+        width:81px;
+        text-align:center;
+        top:54px;
+    }
+    .course .cour-list .cour-btn a:hover {
+        color:#fff;
+        background: #ee2d42;
+    }
+}
+
+@media screen and (max-width:480px){
+    main .xxycontent .person>div {
+        width: 100%;
+    }
+    .person .sql img {
+        width:100%;
+    }
+    .systematic .sys-cont {
+        margin-left:-90px;
+    }
+    
+}
+@media screen and (max-width:256px){
+    .person .sql .sql-text{
+       width:100%;
+   }
+   .person .sql .sql-text .cont-p {
+       width:100%;
+   }
+}
