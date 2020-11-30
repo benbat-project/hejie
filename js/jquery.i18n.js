@@ -4,7 +4,7 @@
             var defaults = {
                 lang: "",
                 defaultLang: "",
-                filePath: "/i18n/",
+                filePath: "../i18n/",
                 filePrefix: "i18n_",
                 fileSuffix: "",
                 forever: true,
