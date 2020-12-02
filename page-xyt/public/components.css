@@ -36,3 +36,67 @@
 }
 
 /* roundButton end */
+
+/* clickSlider */
+.click-slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1181px;
+  margin: 0 auto;
+}
+.click-slider-content {
+  width: 870px;
+  overflow: hidden;
+}
+.click-slider-left-button,
+.click-slider-right-button {
+  visibility: hidden;
+}
+.click-slider div.cl-sl-b {
+  visibility: visible;
+}
+.click-slider div i.fa {
+  font-size: 8em;
+  color: #043458;
+}
+
+.click-slider-content ul {
+  display: flex;
+  transition: 0.5s;
+}
+.click-slider-content ul li {
+  width: 250px;
+  margin-right: 60px;
+}
+.click-slider-content ul li img {
+  width: 250px;
+}
+.click-slider-content ul li h6 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #043458;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 120px;
+  overflow: hidden;
+}
+
+.click-slider-content ul li p {
+  font-size: 16px;
+  line-height: 24px;
+  max-height: 120px;
+  overflow: hidden;
+  width: 250px;
+}
+@media (max-width: 767px) {
+  .click-slider {
+    width: 320px;
+  }
+  .click-slider-content {
+    width: 310px;
+    overflow: hidden;
+  }
+}
+/* clickSlider  end*/

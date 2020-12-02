@@ -1,6 +1,7 @@
 $(function () {
   $(".tab-c-button").roundButton("了解更多", "b");
   $(".tab-c-button").roundButton("立即咨询");
+  $(".footer-content").load("html/footer.html");
 
   $(".tab-bar li").click(function () {
     $(".tab-bar li").each(function (i, d) {

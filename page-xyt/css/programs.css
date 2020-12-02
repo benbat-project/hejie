@@ -228,7 +228,7 @@
   position: absolute;
   top: 100px;
   left: -500px;
-  z-index: 0;
+  z-index: -1;
   width: 1491px;
   height: 1491px;
   border-radius: 100%;
@@ -336,4 +336,125 @@
   position: relative;
   font-size: 0;
   background: #043458;
+}
+@media (max-width: 767px) {
+  .pro-content {
+    margin-top: 0;
+  }
+  .tab-box {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .tab-box .tab-r {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .tab-box .tab-r .tab h3 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-right: 112px;
+    margin-top: 23px;
+    min-height: 160px;
+  }
+  .tab-bar li a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .tab-content .img-con {
+    position: absolute;
+    top: -252px;
+    left: 200px;
+    width: 124px;
+    height: 182px;
+    overflow: hidden;
+  }
+  .tab-content .img-con img {
+    position: absolute;
+    top: -20px;
+    width: 200px;
+  }
+  .tab-bar {
+    width: 320px;
+  }
+  .tab-content li > h3 {
+    font-size: 20px;
+  }
+  .tab-content li > p {
+    font-size: 12px;
+  }
+  .tab-c-msg {
+    display: block;
+  }
+  .tab-c-msg-l h5 {
+    font-size: 12px;
+  }
+  .tab-c-msg-l ul li {
+    font-size: 12px;
+  }
+  .tab-c-msg-r h5 {
+    font-size: 12px;
+  }
+  .tab-c-msg-r {
+    font-size: 12px;
+  }
+  .tab-c-button {
+    margin-top: -60px;
+  }
+  .tab-c-msg-l .df {
+    display: flex;
+  }
+  .learning-center {
+    width: 320px;
+  }
+  .learning-center .center-level {
+    width: 265px;
+    height: 265px;
+    margin-left: 0;
+
+    position: static;
+    margin: 0 auto;
+  }
+  .center-level h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .center-level p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .wrap-center-design {
+    width: 320px;
+    margin: 0 auto;
+    position: static;
+    top: 0px;
+    padding-top: 50px;
+
+    z-index: 99;
+  }
+  .wrap-center-design h3 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 0;
+    margin-bottom: 3px;
+  }
+  .wrap-center-design p {
+    width: 320px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 0;
+  }
+  .button-r {
+    position: absolute;
+    top: 700px;
+    left: 0;
+  }
+  .learning-center-banner {
+    position: absolute;
+    top: 286px;
+    left: -113px;
+    transform: scale(0.5);
+  }
 }

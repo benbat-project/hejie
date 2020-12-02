@@ -7,6 +7,7 @@ $(function () {
 
     $("body").append(sc);
   });
+  $(".footer-content").load("html/footer.html");
 
   const HEIGHT = 200;
   let $aL = $(".content-active-line");
