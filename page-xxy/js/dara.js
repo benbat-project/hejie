@@ -11,6 +11,7 @@ $('.video').on('mouseover', () => {
 $('.video').on('mouseout', () => {
     $('video')[0].controls = false;
 })
+$(".footer-content").load("./footer.html");
 
 
 

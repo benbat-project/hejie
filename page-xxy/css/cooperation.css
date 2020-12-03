@@ -1,0 +1,86 @@
+.nav_wrapper {
+    height:110px;
+}
+main .xxycontent {
+    width: 100%;
+    font-size:16px;
+}
+main .xxycontent>div {
+    width:1349px;
+    margin:0 auto;
+}
+main .video {
+    position:relative;
+}
+main .circont {
+    position:absolute;
+    width: 100%;
+    bottom:150px;
+    display:flex;
+    justify-content:center;
+    bottom:100px;
+    z-index:99
+}
+main .circont>div {
+    position:relative;
+    margin: 0 20px 0 36px;
+    width: 110px;
+    height: 110px;
+    border: 3px solid #fff;
+    border-radius:50%;
+    text-align:center;
+}
+main .circont>div a {
+    position:absolute;
+    font-weight: bold;
+    width: 110px;
+    height:110px;
+    left:0;
+    top:30px;
+    color:#fff;
+}
+main .circont>div:hover a{
+    color: #000;
+}
+main .circont>div:hover {
+    background: #fff;
+}
+main .circont>div:nth-child(1) a {
+    top:40px;
+}
+main .video .imagebox img{
+    width:100% ;
+}
+main .video .cont {
+    position:absolute;
+    left:110px;
+    top:25px;
+    color:#fff;
+}
+main .video .cont li {
+    float:left;
+}
+main .video .cont span {
+    font-weight:bold;
+    padding-left:7px
+}
+main .video .cont a {
+    color:#fff;
+    padding-right:10px;
+    border-right:1px solid #fff;
+}
+main .video a:hover {
+    text-decoration:none;
+    color:#0082a9;
+}
+main .video .text p {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    max-width: 650px;
+    position:absolute;
+    top:250px;
+    left:50%;
+    transform:translateX(-50%);
+    color:#fff;
+}
