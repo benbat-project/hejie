@@ -1,0 +1,305 @@
+@media screen and (max-width:768px){
+    .nav_wrapper {
+        height:56px;
+    }
+    main .xxycontent>div {
+        width: 100%;
+        overflow:hidden;
+    }
+    main .xxybigimage .cont {
+        display:none;
+    }
+    main .xxybigimage .imagebox img:nth-child(2){
+        display:block;
+    }
+    main .xxybigimage .imagebox img:nth-child(1){
+        display:none;
+    }
+    main .xxybigimage .circont {
+        display:none;
+    }
+    main .xxybigimage .text p {
+        font-size: 30px;
+        line-height: 36px;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%)
+    }
+    main .xxycontent .scheme {
+        margin-top:15px;
+    }
+    main .midlecontent>div {
+        width: 320px;
+        font-size:12px;
+        margin:0 auto;
+    }
+    main .scheme {
+        padding:0 30px;
+    }
+    main .scheme h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    main .scheme .scheme-text {
+        width: 100%;
+        line-height:18px;
+    }
+    main .xxycontent .serve {
+        padding-top:10px;
+    }
+    .serve h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin:20px 0 15px ;
+    }
+    .serve ul {
+        width: 260px;
+        padding:0 30px;
+        flex-wrap:wrap;
+    }
+    .serve ul li {
+        width: 260px;
+        padding:0;
+    }
+    .serve ul img {
+        width: 260px;
+        height: 230px;
+        padding: 0 15px;
+    }
+    .serve ul li h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    .serve ul li p {
+        line-height:18px;
+        padding:0
+    }
+    .cour-btn {
+        width: 80px;
+        height: 80px;
+        margin-left:0;
+    }
+    .cour-btn a {
+        width: 80px;
+        height: 80px;
+    }
+    .cour-btn i {
+        width: 12px;
+        height: 21px;
+        background: url(../img/glyphicon-more-mobile.png) no-repeat 0 0;
+        background-size:100%;
+        margin-left:-6px;
+        top:22px;
+    }
+    .cour-btn span {
+        top:51px;
+    }
+    main .xxycontent .serve {
+        padding-bottom:0;
+    }
+    .core .core-icon {
+        width: 250px;
+        height: 250px;
+        border: 3px solid #d9d9d9;
+        margin:35px auto 0;
+    }
+    .core .core-icon .core-icon-text p {
+        font-size:25px;
+        line-height: 30px;
+        height: auto;
+    }
+    .core .core-icon .iconnon {
+        width: 84px;
+        height: 84px;
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .core .core-icon .iconnon .icon-image {
+        width: 33px;
+        height: 33px;
+        margin-bottom:5px;
+        margin-top:20px;
+        background:url(../img/core-service-inform-mobile.png) no-repeat;
+        background-size:100%;
+    }
+    .core .core-icon .iconnon span {
+        font-size:15px;
+        line-height:10px;
+    }
+    .core .core-icon .icon1 {
+        left:84px;
+        top:-38px;
+    }
+    .core .core-icon .icon2 .icon-image {
+        width: 43px;
+        background-image: url(../img/core-service-teach-mobile.png);
+        background-size:100%;
+    }
+    .core .core-icon .icon2 {
+        right: -22px;
+        bottom: 20px;
+    }
+    .core .core-icon .icon3 {
+        left: -14px;
+        bottom: 20px;
+    }
+    .core .core-icon .icon3 .icon-image {
+        background-image: url(../img/core-service-enable-mobile.png);
+        background-size:100%;
+    }
+    .core .core-wrapper {
+        width:185px;
+        padding:0;
+        position:relative;
+    }
+    .core .core-wrapper ul {
+        width:1200px;
+    }
+    .core .all-wrapper {
+        width:185px;
+        overflow:hidden;
+    }
+    .core .all-wrapper li {
+        width:185px;
+    }
+    .core .all-wrapper li h2 {
+        font-size: 20px;
+        line-height: 17px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .core .all-wrapper li h2 span {
+        font-size: 35px;
+        line-height: 10px;
+    }
+    .core .all-wrapper li .conttext {
+        margin-bottom:15px;
+    }
+    .core .all-wrapper li .conttext h3 {
+        line-height:17px;
+    }
+    .core .all-wrapper li .conttext p {
+        line-height: 17px;
+    }
+    .core .core-wrapper .next {
+        width: 24px;
+        height: 42px;
+        background:url(../img/blue-arrow-next-mobile.png) no-repeat;
+        position:absolute;
+        right:-34px;
+        top:50%;
+        margin-top:-60px;
+    }
+    .core .core-wrapper .prev {
+        width: 24px;
+        height: 42px;
+        background:url(../img/blue-arrow-prev-mobile.png) no-repeat;
+        position:absolute;
+        left:-34px;
+        top:50%;
+        margin-top:-60px;
+    }
+    main .xxycontent .brand {
+        width: 320px;
+    }
+    .brand::before {
+        width: 1150px;
+        height:1150px;
+        left: -28%;
+        top: 8%;
+    }
+    .brand .brand-content .brand-left {
+        width: 260px;
+        height: 260px;
+    }
+    .brand .brand-content .brand-left h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .brand .brand-content .brand-left p {
+        width: 176px;
+    }
+    .brand .brand-content .brand-left>div {
+        left:55px;
+    }
+    main .xxycontent .brand {
+        margin-top:-13px;
+    }
+    .brand .brand-content {
+        width: 320px;
+    }
+    .brand .brand-content .brand-right {
+        margin-top:20px;
+        padding:0;
+    }
+    .brand .brand-content .brand-right {
+        width: 260px;
+    }
+    .brand .brand-content .brand-right .logos {
+        width:100%;
+    }
+    .brand .brand-content .brand-right .iconlog {
+        width:33%;
+        height: 60px;
+        margin-bottom:10px;
+    }
+    .brand .brand-content .brand-right img {
+        width: 31px;
+    }
+    .course {
+        padding-top:15px;
+    }
+    .course::after {
+        height:15px;
+    }
+    .course h2 {
+        font-size:24px;
+        line-height:30px;
+    }
+    .course h2 span {
+        border:none;
+        font-size:24px;
+    }
+    .course h2:nth-child(2){
+        display:block;
+    }
+    .course h2:nth-child(1){
+        display:none;
+    }
+    .course .course-list ul li {
+        width: 120px;
+        height: 120px;
+        margin:20px 70px;
+    }
+    .course .course-list {
+        padding-top:0;
+        padding-bottom:60px;
+    }
+    .course .course-list ul a {
+        width: 120px;
+        height: 120px;
+    }
+    .course .course-list ul li a i {
+        width: 12px;
+        height: 21px;
+        background: url(../img/glyphicon-more-mobile.png) no-repeat;
+        background-size:100%;
+        margin-top:17px;
+    }
+    .course .course-list ul li p {
+        font-size:12px;
+    }
+    .course .course-list {
+        width:100%;
+    }
+    .course .course-main {
+        border:none;
+        padding: 20px 30px;
+        font-size:12px;
+    }
+    .course .course-cont {
+        padding-bottom:50px;
+    }
+}

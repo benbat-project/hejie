@@ -551,18 +551,14 @@ footer {
       display: block;
       width:1180px;
     }
-} */
-/* @media screen and (max-width:767px){
+} 
+@media screen and (max-width:767px){
     .wrapper_footer>div {
-      background: #043458;
-      width:100%;
-      overflow:hidden;
-    }
-    .wrapper_footer::before {
-      content: "";
-      display: block;
       width:100%;
     }
+  .wrapper_footer::before {
+    width:100%
+  }
 }
 
 
