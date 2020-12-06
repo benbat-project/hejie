@@ -1,0 +1,373 @@
+@media (min-width: 769px)
+	.nav_top 
+		min-width: 1181px
+.model
+	width: 100%
+	height: 100%
+	position: absolute
+	left: 0
+	top: 547px
+	background: rgba(0, 0, 0, .7)
+	display: none
+header
+	margin-bottom: 0
+	background: #ffffff
+	position: fixed
+	width: 100%
+	top: 0
+	left: 0
+	z-index: 12
+	transition: height 0.3s
+	&.fix
+		background: #ffffff
+		position: fixed
+		width: 100%
+		left: 0
+		top: 0
+		z-index: 900
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1)
+	.header
+		background: #ffffff
+		position: relative
+		z-index: 1000
+		
+		.nov_top
+			width: 100%
+			height: 40px
+			background: #f2f1f1
+			margin-top: 0px
+			visibility: visible
+			opacity: 1
+			.container
+				width: 1181px
+				padding: 0
+				.nov_top_left
+					height: 40px
+					color: #333
+					font-size: 14px
+					padding: 0
+					margin: 0
+					font-size: 0
+					li
+						height: 100%
+						line-height: 38px
+						display: inline-block
+						font-size: 14px
+						a
+							text-decoration: none
+							color: #333
+							padding: 1px 16px
+						&.active
+							a
+								font-weight: bold
+							background: #fff
+						&:hover
+							background: #fff
+				.nov_top_right
+					height: 40px
+					line-height: 40px
+					float: right
+					.site_search
+						height: 40px
+						padding-left: 20px
+						padding-right: 30px
+						display: inline-block
+						span
+							padding-right: 6px
+							font-size: 14px
+							line-height: 38px
+							font-weight: 700
+						p
+							display: inline-block
+							line-height: 38px
+							font-size: 12px
+							font-weight: 700
+							cursor: pointer
+							&:hover
+								color: #1a66a0
+					.menu_account
+						display: inline-block
+						ul
+							font-weight: bold
+							justify-content: space-between
+							display: inline-block
+							font-size: 0
+							height: 40px
+							li
+								height: 40px
+								font-size: 12px
+								display: inline-block
+								padding: 0 10px
+								a
+									text-decoration: none
+									color: #333
+									&:hover
+										color: #1a66a0
+								&:nth-child(2)
+									width: 90px
+									text-align: center
+									background: #043458
+									a
+										color: #fff
+								&:nth-child(3)
+									a
+										border-right: 1px solid #333
+										padding-right: 15px
+								.language_code
+									color: #1a66a0
+@media (max-width: 767px)
+	.branding-mobile
+		background: #ffffff
+		border-bottom: solid 1px #d3d3d3
+		padding: 0
+		.row
+			margin: 0
+			padding: 0
+			.js-mobile-logo
+				float: left
+				padding: 0 0 0 13px
+				img
+					width: 60px
+					margin-top: 7px
+					margin-bottom: 5px
+					vertical-allign: middle
+			.mobile_top_menu
+				display: inline-block
+				float: right
+				.ul
+					display: inline-block
+					li
+						display: inline-block
+						padding: 17px 5px
+						font-size: 14px
+						cursor: pointer
+						a
+							text-decoration: none
+							color: red
+							font-weight: bold
+				.mobile_menu_trigger
+					float: right
+					display: inline-block
+					font-size: 12px
+					line-height: 20px
+					color: #ffffff
+					background: #043458
+					font-weight: bold
+					padding: 18px 14px
+					text-decoration: none
+			.mobile_menu_wrapper
+				position: absolute
+				width: 100%
+				transition: .5s
+				color: #fff
+				display: none
+				background: #f1f1f1
+				z-index: 9999
+				.mobile_menu_top
+					position: relative
+					.close
+						position: absolute
+						right: 11px
+						top: 15px
+						background-image: url("https://wse.com.cn/_ui/responsive/theme-alpha/images/sprites-small/close-menu-mobile.png")
+						background-size: 100% auto
+						background-position: 0 0
+						background-repeat: no-repeat
+						width: 20px
+						height: 20px
+						border: 0
+						text-shadow: none
+						color: #000
+						outline: none
+					.content_ul
+						.ul
+							padding: 0
+							overflow: hidden
+							li
+								display: inline-block
+								padding: 11px 14px
+								
+								a
+									color: #043458
+									padding: 7px 5px 6px 0
+									display: block
+									text-decoration: none
+									font-size: 12px
+								&.active
+									background: #043458
+									a
+										color: #ffffff
+										font-weight: bold
+				.mobile_menu
+					text-align: left
+					padding-top: 13px
+					text-transform: none
+					background: #043458
+					position: absolute;
+					.nav_links
+						li
+							padding: 15px 25px
+							&:first-child
+								padding-top: 10px
+							a
+								text-decoration: none
+								color: #ffffff
+								font-weight: bold
+							&:nth-child(2)
+								width: 100%
+								position: relative
+								.second_menu
+									display: none
+									width: 100%
+									background: #0082a9
+									margin-top: 13px
+									position: absolute
+									left: 0
+									li
+										padding: 15px 25px
+								.plus
+									position: absolute
+									right: 40px
+									top: 16px
+									.awrrow
+										content: ''
+										border-style: solid
+										_border-style: dashed
+										border-width: 6px
+										border-color: transparent
+										width: 0
+										height: 0
+										font-size: 0
+										line-height: 0
+										position: relative
+										right: 12px
+										display: inline-block
+										transition: .5s
+										&.right
+											border-bottom-width: 0
+											margin-top: 5px
+											border-right: 8px solid #fff
+											border-top: 0
+											border-width: 8px
+											transform: rotate(45deg)
+    										top: 4px
+					.item_last
+						margin-left: 25px
+						li
+							padding: 15px 0
+							a
+								text-decoration: none
+								color: #ccc
+								font-weight: bold
+								font-size: 14px
+.container
+	width: 1181px
+	padding: 0
+	.navigation-top
+		padding-left: 20px
+		.logo
+			float: left
+			padding-top: 9px
+			img
+				width: 71px
+				height: 51px
+		.navigation-bottom
+			position: relative
+			left: 0
+			width: auto
+			border-bottom: 0
+			background: transparent
+			.nav_links
+				display: flex
+				li
+					padding: 23px 0
+					&>a
+						text-decoration: none
+						color: #333333
+						font-weight: bold
+						font-size: 14px
+						border-right: 1px solid black
+						padding: 0 20px
+					&:nth-child(1)
+						position: relative
+						.plus
+							position: absolute
+							right: 40px
+							top: 16px
+							.awrrow
+								content: ''
+								border-style: solid
+								_border-style: dashed
+								border-width: 6px
+								border-color: transparent
+								width: 0
+								height: 0
+								font-size: 0
+								line-height: 0
+								position: relative
+								left: 40px
+								display: inline-block
+								&.right
+									border-bottom-width: 0
+									margin-top: 5px
+									border-right: 8px solid #000
+									border-top: 0
+									border-width: 8px
+									transform: rotate(135deg)
+									top: 3px
+						.second_menu3
+							width: 100%
+							position: absolute
+							background: #fff
+							box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85)
+							top: 60px
+							display: none
+							li
+								a
+									border: 0
+									font-weight: normal
+								&:hover
+									background: #0082A9
+									a
+										font-weight: bold
+										color: #fff
+					&:nth-child(5)
+						position: relative
+						.second_menu2
+							width: 100%
+							position: absolute
+							background: #fff
+							box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85)
+							top: 60px
+							display: none
+							li
+								padding: 15px 0
+								a
+									border: 0
+									font-weight: normal
+								&:hover
+									background: #0082A9
+									a
+										font-weight: bold
+										color: #fff
+						.awrrow
+							content: ''
+							border-style: solid
+							_border-style: dashed
+							border-width: 6px
+							border-color: transparent
+							width: 0
+							height: 0
+							font-size: 0
+							line-height: 0
+							position: relative
+							right: 20px
+							display: inline-block
+							&.left
+								border-bottom-width: 0
+								margin-top: 5px
+								border-right: 8px solid #000
+								border-top: 0
+								border-width: 8px
+								transform: rotate(135deg)
+								top: -6px

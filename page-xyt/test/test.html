@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://wse.com.cn/_ui/responsive/common/images/wselogo.png"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../font/stylesheet.css" />
+    <link rel="stylesheet" href="../../font/font-awesome.css" />
+    <link rel="stylesheet" href="../public/components.css" />
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../public/components.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <p>p</p>
+    <div class="box">box</div>
+    <div class="round-button b">
+      <i class="fa fa-angle-right fa-5x"></i>
+      <p>title</p>
+    </div> -->
+    <div class="test"></div>
+    <!-- <a href=""></a> -->
+    <div class="slider"></div>
+  </body>
+
+  <script>
+    $(".test").roundButton("test", "b");
+
+    $(".test").roundButton("test");
+    $(".slider").clickSlider([
+      {
+        url:
+          "https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T10/YourLearningPartners/Desktop/T10_02_FT.png",
+        title: "外教师资",
+        msg:
+          " 我们的外教老师都来自英语母语国家，经验丰富，拥有专业教学资质，帮助你学习地道英语。",
+      },
+      {
+        url:
+          "https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T10/YourLearningPartners/Desktop/T10_02_SA.png",
+        title: "学习顾问",
+        msg:
+          "我们的学习顾问在指导你使用华尔街英语学习方法之外，还将全程负责你的课程管理，引导你实现自己的学习目标。",
+      },
+      {
+        url:
+          "https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T10/YourLearningPartners/Desktop/T10_02_CC.png",
+        title: "课程顾问",
+        msg:
+          "  我们的外教老师都来自英语母语国家，经验丰富，拥有专业教学资质，帮助你学习地道英语。",
+      },
+      {
+        url:
+          "https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T10/YourLearningPartners/Desktop/T10_02_SM.png",
+        title: "服务经理",
+        msg: "服务经理为你和老师们提供支持，并帮助安排教学日程。",
+      },
+      {
+        url:
+          "https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T10/YourLearningPartners/Desktop/T10_02_CSA.png",
+        title: "客服助理",
+        msg:
+          " 客服助理会在你到来的时候接待你，并协助你预订课程，为你做好各方面的学习准备。",
+      },
+    ]);
+  </script>
+</html>
