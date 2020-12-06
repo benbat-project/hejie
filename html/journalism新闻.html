@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.bottom{
+				width: 60%;
+				margin:0 auto;
+				font-size: 15px;
+				color: rgb(4, 52, 88);
+			}
+			.bottom div{
+				height:40px;
+				width: 1000px;
+			}
+			.p{
+				width:800px;
+			}
+			p:last-child{
+				color:#000;
+				font-size:14px;
+				font-weight: 600;
+			}
+			.bottom div{
+				display:flex;
+				align-items: center;
+			}
+			img{
+				width: 20px;
+				height: 20px;
+			}
+			@media screen and (max-width: 600px) {
+				.bottom{
+					margin-top:130px;
+				}
+				.bottom div{
+					width: 200px;
+					height:70px;
+					font-size:12px;
+					display:block;
+				}
+				.bottom div:nth-child(2n+1){
+					width: 200px;
+					height:70px;
+					font-size:12px;
+					background-color:#F6F6F6;
+					display:block;					
+				}
+				img{
+					display:none;
+				}
+				.p{
+					padding-top:10px;
+					width:180px;
+					height:20px;
+				}
+				p{
+					margin-left:10px;
+				}
+				.box{
+					display:none;
+				}
+			}
+			.box{
+				width: 60%;
+				margin:0 auto;
+				height:150px;
+				line-height:150px;
+				margin-top:200px;
+			}
+			h2{
+				font-weight: bold;
+    			color: #ee2d42;
+    			font-size:50px;
+    			width: 900px;
+			}
+			h2 span{
+			    box-shadow: 0px 20px 60px #043458;
+			    width: 136px;
+			    height: 136px;
+			    float: right;
+			    background: #043458;
+			    border-radius: 50%;
+			    display:flex;
+			}
+			h2 span a:first-child{
+				border-right: 1px solid #365d79;
+			    background: url(../font/left.png) center no-repeat;
+			    width: 68px;
+			    height: 136px;
+			    float: left;			    
+			}
+			h2 span a:last-child{
+			    border-left: 1px solid #365d79;
+			    background: url(../font/right.png) center no-repeat;
+			    width: 68px;
+			    height: 136px;
+			    float: right;	
+			}
+			.big{
+				overflow: hidden;
+			}
+		</style>
+		
+
+<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/nav.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/contact.css" />
+
+	</head>
+	<body>
+		<div class="big">
+		<div class="nav_wrapper"></div>
+		<div class="box">
+			<h2>
+			新闻列表
+				<span>
+					<a href=""></a>
+					<a href=""></a>
+				</span>
+			</h2>
+		</div>	
+		<div class="bottom">
+		</div>
+		<footer></footer>
+		</div>
+	</body>
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$.ajax({
+				type:"GET",
+				url:"../json/index.json",
+				dataType:"json",
+				success:function(res){
+					console.log(res)
+					$.each(res,function(index,item){
+						$(".bottom").append(`<div><img src="${item.img}" alt="" /><p class='p'>${item.text}</p><p class='p'>${item.data}</p></div>`)						
+					})
+				}
+			})
+		})
+	</script>
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		 $('.nav_wrapper').load('./nav.html',function(){
+		       var sc =  document.createElement("script");
+		       sc.src= "../js/nav.js";
+		       $("body").append(sc);
+    	});
+		$('footer').load('./footer.html')
+	</script>
+</html>
