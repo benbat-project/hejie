@@ -1,3 +1,4 @@
+
 @media (min-width: 769px) {
   .nav_top {
     min-width: 1181px;
@@ -7,9 +8,9 @@
 .model {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
-  top: 547px;
+  top: 0;
   background: rgba(0, 0, 0, 0.7);
   display: none;
 }
@@ -22,10 +23,17 @@ header {
   top: 0;
   left: 0;
   z-index: 12;
-  height: 110px;
-  -webkit-transition: height 0.3s;
-  -o-transition: height 0.3s;
   transition: height 0.3s;
+}
+
+header.fix {
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 900;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 header .header {
@@ -120,9 +128,7 @@ header .header .nov_top .container .nov_top_right .menu_account {
 
 header .header .nov_top .container .nov_top_right .menu_account ul {
   font-weight: bold;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   display: inline-block;
   font-size: 0;
   height: 40px;
@@ -215,8 +221,6 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
   .branding-mobile .row .mobile_menu_wrapper {
     position: absolute;
     width: 100%;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
     transition: .5s;
     color: #fff;
     display: none;
@@ -268,11 +272,8 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
     text-transform: none;
     background: #043458;
   }
-  .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links {
-    margin-left: 25px;
-  }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li {
-    padding: 15px 0;
+    padding: 15px 25px;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li:first-child {
     padding-top: 10px;
@@ -283,6 +284,7 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
     font-weight: bold;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li:nth-child(2) {
+    width: 100%;
     position: relative;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li:nth-child(2) .second_menu {
@@ -290,9 +292,11 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
     width: 100%;
     background: #0082a9;
     margin-top: 13px;
+    position: absolute;
+    left: 0;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li:nth-child(2) .second_menu li {
-    padding: 15px 10px;
+    padding: 15px 25px;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li:nth-child(2) .plus {
     position: absolute;
@@ -312,6 +316,7 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
     position: relative;
     right: 12px;
     display: inline-block;
+    transition: .5s;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .nav_links li:nth-child(2) .plus .awrrow.right {
     border-bottom-width: 0;
@@ -319,9 +324,7 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
     border-right: 8px solid #fff;
     border-top: 0;
     border-width: 8px;
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     transform-top: 4px;
   }
   .branding-mobile .row .mobile_menu_wrapper .mobile_menu .item_last {
@@ -366,8 +369,6 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
 }
 
 .container .navigation-top .navigation-bottom .nav_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -415,9 +416,7 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
   border-right: 8px solid #000;
   border-top: 0;
   border-width: 8px;
-  -webkit-transform: rotate(135deg);
-      -ms-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
   top: 3px;
 }
 
@@ -425,8 +424,7 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
   width: 100%;
   position: absolute;
   background: #fff;
-  -webkit-box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85);
-          box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85);
+  box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85);
   top: 60px;
   display: none;
 }
@@ -453,8 +451,7 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
   width: 100%;
   position: absolute;
   background: #fff;
-  -webkit-box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85);
-          box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85);
+  box-shadow: 3px 5px 8px rgba(195, 195, 195, 0.85);
   top: 60px;
   display: none;
 }
@@ -498,8 +495,6 @@ header .header .nov_top .container .nov_top_right .menu_account ul li .language_
   border-right: 8px solid #000;
   border-top: 0;
   border-width: 8px;
-  -webkit-transform: rotate(135deg);
-      -ms-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
   top: -6px;
 }

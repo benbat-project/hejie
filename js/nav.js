@@ -62,3 +62,15 @@ $('.si').hover(function () {
 		"right": "20px"
 	})
 })
+
+
+$(document).scroll(function() {
+	var scroH = $(document).scrollTop();  //滚动高度
+	if(scroH > 200){  //距离顶部大于100px时
+		$('.js-mainHeader').hide()
+		$('.slideInDownMenu').addClass('fix')
+	} else {
+		$('.js-mainHeader').show()
+		$('.slideInDownMenu').removeClass('fix')
+	}
+})
