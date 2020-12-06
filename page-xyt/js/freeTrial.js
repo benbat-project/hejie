@@ -8,4 +8,8 @@ $(function () {
     $("body").append(sc);
   });
   $(".footer-content").load("html/footer.html");
+
+  $(".w-f-l-c").roundButton("现在就来测试吧", "b");
+
+  $(".w-f-r-c").roundButton("联系我们");
 });
