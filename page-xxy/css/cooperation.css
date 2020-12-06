@@ -333,6 +333,7 @@ main .xxycontent .brand {
     width: 1349px;
     height: 580px;
     margin-top:50px;
+    overflow:hidden;
 }
 .brand::before {
     content: '';

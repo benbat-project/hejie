@@ -203,6 +203,7 @@
     }
     main .xxycontent .brand {
         width: 320px;
+        overflow:visible;
     }
     .brand::before {
         width: 1150px;
