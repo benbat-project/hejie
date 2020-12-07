@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://wse.com.cn/_ui/responsive/common/images/wselogo.png">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../font/stylesheet.css">
+    <link rel="stylesheet" href="../font/font-awesome.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_973248_izuj7ho878.css">
+    <link rel="stylesheet" href="../css/learn.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>最近学习中心</title>
+</head>
+<body>
+    <div class="nav_wrapper"></div>
+    <div class="overall" style="margin-top:80px; overflow: hidden;">
+        <div class="header">
+            <div class='container'>
+                <div class='row'>
+                    <!-- 导航条 -->
+                    <div class="navigation-left">
+                        <ol class="navigation">
+                            <li><a href="">首页</a></li>
+                            <li><a href="">关于华尔街英语</a></li>
+                            <li class="active"><span>华尔街英语在中国</span></li>
+                        </ol>
+                    </div>
+                    <div class="center-right hidden-xs">
+                        <img src="https://wse.com.cn/medias/sys_master/images/images/h94/h3e/8796469329950/8796469329950.png" alt="">
+                    </div>
+                    <!-- 内容部分下拉列表 -->
+                    <div class="content-left">
+                        <h1>华尔街英语在中国</h1>
+                        <div class="centent_location">
+                            <div class="center_select">
+                                <span class="center_select_span">我在</span>
+                                <div class="center_select_ul">
+                                    <select name="" id="region">
+                                        <option value="">请选择城市</option>
+                                        <option value="">上海市</option>
+                                        <option value="">北京市</option>
+                                        <option value="">广州市</option>
+                                        <option value="">深圳市</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ason_nearby">
+                            <p class="ason_nearby_centre">东方广场中心</p>
+                            <a href="">点击查看地图，寻找更多中心</a>
+                        </div>
+                        <!-- 位置介绍 -->
+                        <div class="ason_detail">
+                            <!-- 左部分 -->
+                            <div class="detail-left">
+                                <div class="col map">
+                                    <span class="iconfont icon-dizhi"></span>
+                                    <b class="address">地址</b>
+                                    <div class="txt">
+                                        <p>
+                                            北京市东城区
+                                            <br>
+                                            东长安街1号
+                                            <br>
+                                            东方市场W3座2层
+                                            <br>
+                                            邮编：100738
+                                            <br>
+                                            (地铁1号线王府井站A出口)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col phone">
+                                    <span class="iconfont icon-dianhua"></span>
+                                    <b class="tel">联系电话</b>
+                                    <div class="txt">
+                                        <p>010-85185058</p>
+                                    </div>
+                                </div>
+                                <div class="col time">
+                                    <span class="iconfont icon-work_time_set"></span>
+                                    <b class="worktime">工作时间</b>
+                                    <div class="txt">
+                                        <p>周一至周五 10:00-21:30</p>
+                                        <p>周六至周日 10:00-19:00</p>
+                                    </div>
+                                </div>
+                                <div class="ason_detail_hint">
+                                    <b>温馨提示:</b>
+                                    <ul>
+                                        <li>点击下方地图中,华尔街英语图标,切换当前城市中心</li>
+                                        <li>图标和上文中心信息同步更新.返回上文即可查看详情</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 位置介绍右部分 -->
+                            <div class="detail-right">
+                                <div class="right_introduce">
+                                    位于北京的头号商业街王府井大街和北京最著名的大道长安街的交叉口，交通非常方便。中心服务设施完备，学习气氛浓厚，极具时尚现代风格的环境带给您舒适的学习感受。
+                                </div>
+                                <div class="mass">
+                                    <a href="http://www.dianping.com/shop/2329093" target="_blank">
+                                        <span class="iconfont icon-dazhongdianping"></span>
+                                        <span class="comment">点击这里查看评论</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 地图部分 -->
+        <div class="atlas" id="allmap"></div>
+        <!-- 底部 -->
+        <div class="footer"></div>
+    </div>
+</body>
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://api.map.baidu.com/api?v=2.0&ak=1OLlEkgeGVPjnRHhfDlIop9HbsI9Gi8M"></script>
+<script src="../js/learn.js"></script>
+</html>
