@@ -3,7 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="icon" href="https://wse.com.cn/_ui/responsive/common/images/wselogo.png">
 		<style>
+			a {
+				text-decoration: none;
+				color: #000;
+			}
 			.bottom{
 				width: 60%;
 				margin:0 auto;
@@ -104,7 +109,7 @@
 		</style>
 		
 
-<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../css/nav.css" />
 		<link rel="stylesheet" href="../css/footer.css" />
@@ -136,9 +141,11 @@
 				url:"../json/index.json",
 				dataType:"json",
 				success:function(res){
-					console.log(res)
 					$.each(res,function(index,item){
-						$(".bottom").append(`<div><img src="${item.img}" alt="" /><p class='p'>${item.text}</p><p class='p'>${item.data}</p></div>`)						
+						$(".bottom").append(`<div class='items'><img src="${item.img}" alt="" /><p class='p'>${item.text}</p><p class='p'>${item.data}</p></div>`)						
+					})
+					$('.items').click(function () {
+						window.location.href = './particulars .html'
 					})
 				}
 			})
