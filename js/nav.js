@@ -5,6 +5,12 @@ $('.mobile_menu_trigger').click(function () {
 	$('.mobile_menu_first').hide()
 	$('.mobile_menu_wrapper').show().addClass('animate__animated animate__fadeInRight')
 	$('.model').show()
+<<<<<<< HEAD
+=======
+	// $('.a').css({
+	// 	"margin-top": $('.mobile_menu_wrapper').height()
+	// })
+>>>>>>> 01625a2b3e94942a21410e279bd0b0915e8e15ff
 })
 $('.close').click( function () {
 	$('.mobile_menu_first').show()
