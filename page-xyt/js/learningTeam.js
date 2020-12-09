@@ -2,7 +2,7 @@ $(function () {
   $(".nav_wrapper").load("html/nav.html", function () {
     var sc = document.createElement("script");
 
-    sc.src = "./js/nav.js";
+    sc.src = "../js/nav.js";
     console.log(sc);
 
     $("body").append(sc);

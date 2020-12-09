@@ -26,8 +26,7 @@ $(function () {
   $(".nav_wrapper").load("html/nav.html", function () {
     var sc = document.createElement("script");
 
-    sc.src = "./js/nav.js";
-    console.log(sc);
+    sc.src = "../js/nav.js";
 
     $("body").append(sc);
   });
