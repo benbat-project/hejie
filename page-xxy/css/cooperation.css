@@ -11,7 +11,7 @@ main .xxycontent {
     font-size:16px;
 }
 main .xxycontent>div {
-    width:1349px;
+    width: 100%;
     margin:0 auto;
 }
 main .xxybigimage {

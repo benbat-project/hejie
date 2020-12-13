@@ -23,7 +23,7 @@ $(function () {
   //   -------------------------------
   $(".button-r").roundButton("咨询我们");
 
-  $(".nav_wrapper").load("html/nav.html", function () {
+  $(".nav_wrapper").load("/SEEC/hejie/page-wjy/nav.html", function () {
     var sc = document.createElement("script");
 
     sc.src = "../js/nav.js";

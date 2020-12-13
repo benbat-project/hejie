@@ -1,20 +1,25 @@
 * {
-	margin:0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 @media (min-width: 769px) {
-	footer {
-		min-width: 1181px;
-	}
+  footer {
+    min-width: 1181px;
+  }
+}
+.wrapper_footer > div {
+  background: #043458;
+  width: 1349px;
+  overflow: hidden;
 }
 .row {
   margin: 0;
   padding: 0;
 }
 footer {
-	background: none;
+  background: none;
   padding-top: 0px;
   margin-top: 100px;
   position: relative;
@@ -38,8 +43,8 @@ footer {
   display: block;
   width: 100%;
   height: 43px;
-  background: url("https://wse.com.cn/_ui/responsive/theme-alpha/img/bg_footer.png") center 0
-    no-repeat;
+  background: url("https://wse.com.cn/_ui/responsive/theme-alpha/img/bg_footer.png")
+    center 0 no-repeat;
   background-size: 100% 100%;
   position: absolute;
   top: -42px;
@@ -139,8 +144,8 @@ footer {
 @media (max-width: 767px) {
   .wrapper_footer a {
     font-size: 12px;
-	line-height: 18px;
-	text-decoration: none;
+    line-height: 18px;
+    text-decoration: none;
   }
 }
 .wrapper_footer .footer {
@@ -532,3 +537,26 @@ footer {
   width: 0;
 }
 
+@media screen and (max-width: 1349px) {
+  .footer-content {
+    width: 100%;
+  }
+  .wrapper_footer > div {
+    background: #043458;
+    width: 1180px;
+    overflow: hidden;
+  }
+  .wrapper_footer::before {
+    content: "";
+    display: block;
+    width: 1180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrapper_footer > div {
+    width: 100%;
+  }
+  .wrapper_footer::before {
+    width: 100%;
+  }
+}

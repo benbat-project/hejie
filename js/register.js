@@ -1,5 +1,4 @@
 $(function () {
-	console.log(1)
 $('.province-wrapper input').click(function(){
 	$('.cities').css({
 		display:'block'
