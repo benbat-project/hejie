@@ -14,6 +14,12 @@ main .xxycontent>div {
     width: 100%;
     margin:0 auto;
 }
+main .xxycontent .xxybigimage {
+    width:100%
+}
+main .xxycontent .course {
+    width:100%
+}
 main .xxybigimage {
     width:100%;
     position:relative;
@@ -509,5 +515,11 @@ main .xxycontent .brand {
     }
     main .xxybigimage .text p {
         top:190px;
+    }
+    main .xxycontent .xxybigimage {
+        width:1180px
+    }
+    main .xxycontent .course {
+        width: 1180px;
     }
 }
