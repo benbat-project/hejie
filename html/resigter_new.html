@@ -10,123 +10,101 @@
 		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/nav.css">
 		<link rel="stylesheet" href="../css/footer.css" />
-		<link rel="stylesheet" href="../css/register.css" />
+		<link rel="stylesheet" href="../css/register.css">
 		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="../js/register.js"></script>
 	</head>
 	<body>
 		<!--表单-->
-		<div class="zjy-register-wrapper">
+		<div class="zjy-register-wrapper" style="overflow: hidden;">
 			<div class="nav_wrapper"></div>
-			<div class="container">
-				<h2>新会员注册</h2>
-				<div class="content">
-					<div class="content-form clearfix">
-						<h3>免费成为华尔街英语会员</h3>
-						<div class='must-write'>*必填</div>
-						<form action="">
-							<div class="username-wrapper">
-								<span>真实姓名*</span>
-								<div class="ipt">
-									<input type="text" placeholder="姓氏">
-									<input type="text" placeholder="名字">
-								</div>
+			<div class="bigbox">
+				<div class="navigation"></div>
+				<div class="navigation-last"></div>
+			</div>
+			<div class="navbar-change"></div>
+			<div class="public-side"></div>
+			<div class="member-login">
+				<div class="member-box">
+					<div class="member-txt">会员登陆</div>
+					<p class="mem-txt-p">如果你已经是会员，请选择以下登录方式。</p>
+					<div class="member-left">
+						<div class="member-tab">
+							<ul class="member-tab-list">
+								<li class="list-active active-one">手机号码</li>
+								<li class="active-two">账号登陆</li>
+							</ul>
+							<div class="member-tab-one tab-active">
+								<form class="foot-inp mui-input-group form-one">
+									<div class="mui-input-row">
+										<label>手机号码*</label>
+										<input type="text" class="mui-input-clear" placeholder="+86">
+										<br><button type="button">获取短信验证码</button>
+									</div>
+									<div class="mui-input-row">
+										<label>验证码*</label>
+										<input type="text" class="mui-input-clear" placeholder="验证码">
+									</div>
+								</form>
 							</div>
-							<div class='phone-wrapper'>
-								<span>手机号码*</span>
-								<div class="ipt">
-									<input type="text" placeholder="+86">
-									<div class='btn-get-code'>获取短信验证码</div>
-								</div>
+							<div class="member-tab-two">
+								<form class="mui-input-group form-two foot-inp">
+									<div class="mui-input-row">
+										<label>手机号码*</label>
+										<input type="text" class="mui-input-clear" placeholder="+86">
+									</div>
+									<div class="mui-input-row">
+										<label>密码*</label>
+										<input type="password" class="mui-input-clear" placeholder="密码">
+									</div>
+								</form>
 							</div>
-							<div class='code-wrapper'>
-								<span>验证码*</span>
-								<div class="ipt">
-									<input type="text" placeholder="验证码">
-									
-								</div>
-							</div>
-							<div class='email-wrapper'>
-								<span>电子邮件*</span>
-								<div class="ipt">
-									<input type="text" placeholder="电子邮件">
-									
-								</div>
-							</div>
-							<div class='pass-wrapper'>
-								<span>密码*</span>
-								<div class="ipt">
-									<input type="text" placeholder="密码">
-									<div>密码必须包含8个字符</div>
-								</div>
-							</div>
-							<div class='pass-confirm-wrapper'>
-								<span>确认密码*</span>
-								<div class="ipt">
-									<input type="text" placeholder="确认密码">
-									
-								</div>
-							</div>
-							<div class='province-wrapper'>
-								<span>省份*</span>
-								<div class="ipt">
-									<input type="text" value='请选择'>
-									<span class="caret"></span>
-									<ul class='cities'>
-										<li style='color:#ccc;'>请选择</li>
-										<li class='li'>北京市</li>
-										<li class='li'>上海市</li>
-										<li class='li'>天津市</li>
-										<li class='li'>重庆市</li>
-										<li class='li'>杭州市</li>
-										<li class='li'>石家庄市</li>
-									</ul>
-									
-								</div>
-							</div>
-							<div class='city-wrapper'>
-								<span>所在城市*</span>
-								<div class="ipt">
-									<input type="text" value='请选择'>
-									<span class="caret"></span>
-								</div>
-							</div>
-							
-						</form>
-						<div class="isAgree">
-							<div class='checkbox'>
-								<div class="select-checkbox"></div>
-							</div>
-							<span>我已阅读并同意<a href="">使用条款和隐私协议</a></span>
-						</div>
-						<div class="register">
-							<span class='glyphicon glyphicon-edit'></span>
-							<div>注册</div>
+							<button type="button" class="member-btn">登陆</button>
+							<button class="back-img"></button>
+							<button class="back-qq">
+								<span></span>
+								<b>QQ登陆</b>
+							</button>
 						</div>
 					</div>
-					<div class="content-info">
-						<h3>注册会员的专享权利：</h3>
-						<div>咨询课程价格</div>
-						<div>
-							<div>查看你的英语测试结果<br><a href="">马上测试.</a></div>
-							
+					<div class="member-right">
+						<h2>注册会员的专享权利：</h2>
+						<div class="member-only">
+							<p>
+								<span></span>
+								<b>咨询课程价格</b>
+							</p>
+							<p>
+								<span></span>
+								<b>咨询课程价格</b>
+							</p>
+							<p>
+								<span></span>
+								<b>咨询课程价格</b>
+							</p>
+							<p>
+								<span></span>
+								<b>咨询课程价格</b>
+							</p>
 						</div>
-						<div>查看你的购买记录</div>
-						<div>获取报价和最新消息</div>
+						<button>新会员注册</button>
 					</div>
 				</div>
 			</div>
-			<footer></footer>
+			<div style="height: 600px;"></div>
+			<footer style="width: 100%;"></footer>
 		</div>
+
 	</body>
+	<script src="../js/register.js"></script>
 	<script type="text/javascript">
 	 $('.nav_wrapper').load('/SEEC/hejie/page-wjy/nav.html',function(){
-       var sc =  document.createElement("script");
-       sc.src= "../js/nav.js";
-       $("body").append(sc);
-    });
-       $('footer').load('../html/footer.html')
+		$('.nav_wrapper').load('../html/nav.html', function() {
+			var sc = document.createElement("script");
+			sc.src = "../js/nav.js";
+			$("body").append(sc);
+		});
+		$('footer').load('../html/footer.html')
 	</script>
-
 </html>
