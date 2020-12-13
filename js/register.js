@@ -1,34 +1,17 @@
-$(function () {
-	console.log(1)
-$('.province-wrapper input').click(function(){
-	$('.cities').css({
-		display:'block'
-	})
-	console.log(1)
+$('.active-two').click(function(){
+	$(".form-two").show();
+	$(".form-one").hide();
+	$(".active-two").css("background-color","#043458")
+	$(".active-two").css("color","#fff")
+	$(".active-one").css("background-color","#fff")
+	$(".active-one").css("color","#043458")
 })
-$('.cities li').hover(function(){
-	$(this).addClass('active').siblings().removeClass('active')
+$('.active-one').click(function(){
+	$(".form-one").show();
+	$(".form-two").hide();
+	$(".active-one").css("background-color","#043458")
+	$(".active-one").css("color","#fff")
+	$(".active-two").css("background-color","#fff")
+	$(".active-two").css("color","#043458")
 })
-$('.cities .li').click(function(){
-	let index = $(this).index()+1
-	$('.province-wrapper input').val($(this).html())
-	$('.cities').css({
-		display:'none'
-	})
-})
-let i = 0
-$('.isAgree .checkbox').click(function(){
-	console.log(231)
-	i++;
-	if(i%2==0){
-		$('.select-checkbox').css({
-			display:'none'
-		})
-	}else{
-		$('.select-checkbox').css({
-			display:'block'
-		})
-	}
-	
-})
-})
+// $(".foot").load("/Wall-Street/pages/wll-demo/foot.html")
