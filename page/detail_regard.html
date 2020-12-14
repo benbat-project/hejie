@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
@@ -21,9 +22,9 @@
     <div class="regard" style="width: 100%;overflow: hidden;">
         <!-- 中间内容部分 -->
         <div class="header" id='head'>
-            <div class='container'>
+            <div class='containers'>
                 <div class='row'>
-                    <div class="regard_navigation">
+                    <div class="regard_navigation" class="hidden-lg hidden-md hidden-sm hidden-xs">
                         <ol class="regard">
                             <li>
                                 <a href="">首页</a>
@@ -33,8 +34,10 @@
                     </div>
                     <div class="slideshow">
                         <img src="https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T20/About/Desktop/T20_01.png"
-                            alt="">
-                        <div class='container'>
+                            alt="" class="hidden-xs">
+                        <img src="https://wse.com.cn/_ui/responsive/theme-alpha/img/images_content/T20/About/Mobile/T20_01.jpg"
+                            alt="" class="hidden-lg hidden-md hidden-sm">
+                        <div class='container' class="hidden-lg hidden-md hidden-sm hidden-xs">
                             <div class="text">
                                 <h1>改变未来的力量</h1>
                             </div>
@@ -194,8 +197,9 @@
                                             </ul>
                                         </div>
                                         <div class="slide-btn">
-                                            <p class='slide-left' data-index="-1"> < </p>
-                                            <p class='slide-right' data-index="1"> > </p>
+                                            <p class='slide-left' data-index="-1">
+                                                < </p>
+                                                    <p class='slide-right' data-index="1"> > </p>
                                         </div>
                                     </div>
                                 </div>
@@ -205,9 +209,9 @@
                 </div>
             </div>
         </div>
+        <!-- 底部 -->
         <div class="footer"></div>
     </div>
-    <!-- 底部 -->
 </body>
 
 </html>
